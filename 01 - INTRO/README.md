@@ -66,7 +66,7 @@ Link: https://miro.com/app/board/uXjVPOX2-6o=/?share_link_id=7417783722
 <br>
 
 ## UI en Figma
-Link: 
+Link: https://www.figma.com/file/g8VakzG8prqPsLqccaQkV1/Abogabot-UI?node-id=0%3A1
 
 
 
