@@ -19,7 +19,7 @@
 <br>
 
 | CÓDIGO | Nombre del Requerimiento | Descripción |
-|:-------------------:|:---:|:---:|
+|:-------------------:|:---:|:---|
 | RF001 | Llenar formulario (cliente) | El cliente llena el formulario y continúa el proceso. |
 | RF002 | Realizar pago (cliente) | Proceso subsiguiente a “Llenar formulario”, se realiza el proceso de pago para finalizar la transacción. |
 | RF003 | Crear cuenta (cliente) | Para dar seguimiento a su demanda, el cliente crea una cuenta en la plataforma. |
@@ -30,6 +30,7 @@
 | RF009 | Ver dashboard de pagos (admin) | El administrador recibe el pago y debe de ser capaz de verlo en un dashboard para ver la cantidad de ingresos recibidos. |
 | RF010 | Actualizar proceso demanda (admin) | El administrador actualiza el proceso de la demanda y agrega comentarios en cada paso del proceso. |
 | RF011 | Enviar notificación del proceso (sistema) | Al usuario (cliente) le llegan correos de notificación para saber el avance de su proceso. |
+
 
 <br>
 
@@ -60,12 +61,12 @@
 <br>
 
 ## Wireframe UX en Miro
-Link: 
+Link: https://miro.com/app/board/uXjVPOX2-6o=/?share_link_id=7417783722
 <hr/>
 <br>
 
 ## UI en Figma
-Link: 
+Link: https://www.figma.com/file/g8VakzG8prqPsLqccaQkV1/Abogabot-UI?node-id=0%3A1
 
 
 
