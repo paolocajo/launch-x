@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/logo.png" />
+    <title>Inicio</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="./img/logo.png" alt="Logo">
+        </div>
+        <nav>
+           <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sabores">Sabores</a></li>
+                <li><a href="#adornos">Adornos</a></li>
+                <li><a href="#contactanos">Contáctanos</a></li>
+           </ul>            
+        </nav>
+        <a class="btn" href="#pedido"><button>Pedir</button></a>
+    </header>
+    <main>
+        <section id="inicio">
+            <img src="./img/pastel-1.jpg" alt="Pastel de chocolate" width="300px">
+            <img src="./img/pastel-1.jpg" alt="Pastel de vainilla" width="300px">
+        </section>
+        <section>
+            <article>
+                <h2>¿Quiénes somos?</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, similique in. Nemo deleniti atque velit magni temporibus facere pariatur obcaecati incidunt. Officia aliquam doloribus error, quis delectus accusantium quam reiciendis?</p>
+            </article>
+            <img src="./img/pastelero.jpg" alt="Pastelero">
+        </section>
+        <section id="sabores">
+            <h2>Sabores disponibles</h2>
+            <article>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Sabor</th>
+                            <th>Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Chocolate</td>
+                            <td>$20</td>
+                        </tr>
+                        <tr>
+                            <td>Vainilla</td>
+                            <td>$15</td>
+                        </tr>
+                        <tr>
+                            <td>Fresa</td>
+                            <td>$25</td>
+                        </tr>
+                        <tr>
+                            <td>Limón</td>
+                            <td>$18</td>
+                        </tr>
+                        <tr>
+                            <td>Naranja</td>
+                            <td>$22</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <img src="./img/sabores.jpg" alt="Sabores">
+            </article>
+        </section>
+        <section id="adornos">
+            <h2>Adornos disponibles</h2>
+            <article>
+                <img src="./img/adornos.jpg" alt="Adornos">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Adorno</th>
+                            <th>Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Fresas</td>
+                            <td>$4</td>
+                        </tr>
+                        <tr>
+                            <td>Cerezas</td>
+                            <td>$4</td>
+                        </tr>
+                        <tr>
+                            <td>Duraznos</td>
+                            <td>$4</td>
+                        </tr>
+                        <tr>
+                            <td>Topper</td>
+                            <td>$1</td>
+                        </tr>
+                        <tr>
+                            <td>Dulces</td>
+                            <td>$5</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </section>
+        <section id="contactanos">
+            <h2>Contáctanos</h2>
+            <article>
+                <h3>Dirección</h3>
+                <p>Direccion los juanitos calle 133</p>
+                <h3>Teléfono</h3>
+                <p>992222222</p>
+            </article>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2">Horarios de atención</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lunes a Viernes</td>
+                        <td>8am - 10pm</td>
+                    </tr>
+                    <tr>
+                        <td>Sábado</td>
+                        <td>10am - 8pm</td>
+                    </tr>
+                    <tr>
+                        <td>Domingos</td>
+                        <td>10am - 6pm</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15608.265468998216!2d-77.04452836395564!3d-12.038952014291343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c5f619ee3ec7%3A0x14206cb9cc452e4a!2sLima!5e0!3m2!1ses-419!2spe!4v1666228194354!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section id="pedido">
+            <h2>Selección de pedido</h2>
+            <form action="#" method="post">
+                <div class="2-columnas">
+                    <div class="input">
+                        <label for="nombres">Nombre(s)</label>
+                        <input type="text" placeholder="Escribe tu(s) nombre(s)" name="nombres" id="nombres" minlength="2" required>
+                    </div>
+                    <div class="input">
+                        <label for="apellidos">Apellidos</label>
+                        <input type="text" placeholder="Escribe tus apellidos" name="apellidos" id="apellidos" minlength="2" required>
+                    </div>
+                </div>
+                <div class="2-columnas">
+                    <div class="input">
+                        <label for="telefono">Teléfono</label>
+                        <input type="number" placeholder="Escribe tu número de teléfono" name="telefono" id="telefono" pattern="9[0-9]{8}" required>
+                    </div>
+                    <div class="input">
+                        <label for="correo">Correo de contacto</label>
+                        <input type="email" placeholder="Escribe tu correo electrónico" name="correo" id="correo" minlength="10" maxlength="30" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Ejemplo: john_doe@gmail.com (Todo en minúsculas)" required>
+                    </div>
+                </div>
+                <div class="1-columna">
+                    <div class="input">
+                        <label for="descripcion-pastel">Descripción general del pastel</label>
+                        <textarea id="descripcion-pastel" name="descripcion-pastel" placeholder="Escribe tu descripción general del pastel" rows="5" cols="33">
+                        </textarea>
+                        <!-- <input type="" placeholder="Escribe tu descripción general del pastel" name="descripcion" id="descripcion" required> -->
+                    </div>
+                </div>
+                <div class="2-columnas">
+                    <div>
+                        <input type="checkbox" name="chocolate" id="chocolate">
+                        <label for="chocolate">Chocolate</label><br>
+                        <input type="checkbox" name="vainilla" id="vainilla">
+                        <label for="vainilla">Vainilla</label><br>
+                        <input type="checkbox" name="fresa" id="fresa">
+                        <label for="fresa">Fresa</label><br>
+                        <input type="checkbox" name="limon" id="limon">
+                        <label for="limon">Limón</label>
+                        <input type="checkbox" name="naranja" id="naranja">
+                        <label for="naranja">Naranja</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="fresas" id="fresas">
+                        <label for="fresas">Fresas</label><br>
+                        <input type="checkbox" name="cerezas" id="cerezas">
+                        <label for="cerezas">Cerezas</label><br>
+                        <input type="checkbox" name="duraznos" id="duraznos">
+                        <label for="duraznos">Duraznos</label><br>
+                        <input type="checkbox" name="topper" id="topper">
+                        <label for="topper">Topper</label>
+                        <input type="checkbox" name="dulces" id="dulces">
+                        <label for="dulces">Dulces</label>
+                    </div>
+                </div>
+                <div class="1-columna">
+                    <div class="boton">
+                        <input type="submit" value="Pedir">
+                    </div>
+                </div>
+            </form>
+        </section>
+        <footer>
+            <div>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Whatsapp</a>
+            </div>
+            <p>©2022</p>
+        </footer>
+    </main>
+</body>
+</html>

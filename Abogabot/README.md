@@ -41,22 +41,22 @@
 <br>
 
 ## Diagrama de casos de uso
-![diagrama-de-casos-de-uso](../01%20-%20INTRO/src/diagrama-de-casos-de-uso.jpg)
+![diagrama-de-casos-de-uso](./img/diagrama-de-casos-de-uso.jpg)
 <hr/>
 <br>
 
 ## Diagrama de Flujo de la Aplicación
-![diagrama-de-flujo](../01%20-%20INTRO/src/diagrama-de-flujo.jpg)
+![diagrama-de-flujo](./img/diagrama-de-flujo.jpg)
 <hr/>
 <br>
 
 ## Buyer Persona
-![buyer-persona](../01%20-%20INTRO/src/buyer-persona.png)
+![buyer-persona](./img/buyer-persona.png)
 <hr/>
 <br>
 
 ## Público Objetivo
-![publico-objetivo](../01%20-%20INTRO/src/publico-objetivo.jpg)
+![publico-objetivo](./img/publico-objetivo.jpg)
 <hr/>
 <br>
 
