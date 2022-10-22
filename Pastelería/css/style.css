@@ -12,6 +12,7 @@
     --color-claro: #ffffff;
     --color-oscuro: #525259;
     --color-fuente: #202022;
+    --color-fondo-secundario:#f8dbd06d;
   }
 
 
@@ -120,10 +121,10 @@ h2{
     flex-direction: column;
     padding: 40px 10%;
     row-gap: 50px;
-    background-color: var(--color-principal);
+    background-color: var(--color-fondo-secundario);
 }
 .precios h2{
-    color: var(--color-secundario);
+    color: var(--color-fuente);
     text-align: center;
 }
 
@@ -139,5 +140,59 @@ h2{
     object-fit: cover;
 }
 .precios article table{
+    width: 50%;
+}
+
+
+table {
+    background-color: var(--color-secundario);
+    border-collapse: collapse;
+}
+table thead {
+    color: var(--color-fuente);
+    background-color: var(--color-principal-hover);
+}
+table tbody {
+    text-align: center;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #efefef;
+}
+
+
+table thead tr th{
+    padding: 12px;
+}
+table tbody tr{
+    /* border-bottom: 1px solid var(--color-oscuro); */
+    font-size: 14px;
+}
+
+.precios#adornos{
+    background-color: var(--color-claro);
+}
+.precios#adornos h2{
+    color: var(--color-fuente);
+}
+
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 10%;
+    row-gap: 50px;
+    background-color: var(--color-fondo-secundario);
+}
+.contacto h2{
+   text-align: center;
+}
+.contacto div{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    column-gap:  50px;
+}
+.contacto table{
     width: 50%;
 }
