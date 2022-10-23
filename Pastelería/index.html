@@ -142,12 +142,12 @@
         </div>
     </section>
     <section>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15608.265468998216!2d-77.04452836395564!3d-12.038952014291343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c5f619ee3ec7%3A0x14206cb9cc452e4a!2sLima!5e0!3m2!1ses-419!2spe!4v1666228194354!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15608.265468998216!2d-77.04452836395564!3d-12.038952014291343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c5f619ee3ec7%3A0x14206cb9cc452e4a!2sLima!5e0!3m2!1ses-419!2spe!4v1666228194354!5m2!1ses-419!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
-    <!-- <section id="pedido">
+    <section id="pedido" class="pedido">
         <h2>Selección de pedido</h2>
-        <form action="#" method="post">
-            <div class="2-columnas">
+        <form action="#" method="post" class="formulario">
+            <div class="dos-columnas">
                 <div class="input">
                     <label for="nombres">Nombre(s)</label>
                     <input type="text" placeholder="Escribe tu(s) nombre(s)" name="nombres" id="nombres" minlength="2" required>
@@ -157,7 +157,7 @@
                     <input type="text" placeholder="Escribe tus apellidos" name="apellidos" id="apellidos" minlength="2" required>
                 </div>
             </div>
-            <div class="2-columnas">
+            <div class="dos-columnas">
                 <div class="input">
                     <label for="telefono">Teléfono</label>
                     <input type="number" placeholder="Escribe tu número de teléfono" name="telefono" id="telefono" pattern="9[0-9]{8}" required>
@@ -167,15 +167,16 @@
                     <input type="email" placeholder="Escribe tu correo electrónico" name="correo" id="correo" minlength="10" maxlength="30" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Ejemplo: john_doe@gmail.com (Todo en minúsculas)" required>
                 </div>
             </div>
-            <div class="1-columna">
+            <div class="una-columna">
                 <div class="input">
                     <label for="descripcion-pastel">Descripción general del pastel</label>
                     <textarea id="descripcion-pastel" name="descripcion-pastel" placeholder="Escribe tu descripción general del pastel" rows="5" cols="33">
                     </textarea>
                 </div>
             </div>
-            <div class="2-columnas">
-                <div>
+            <div class="dos-columnas">
+                <div  class="contenedor-checkbox">
+                    <p>Elige el sabor del pastel (puede combinarlos)</p>
                     <input type="checkbox" name="chocolate" id="chocolate">
                     <label for="chocolate">Chocolate</label><br>
                     <input type="checkbox" name="vainilla" id="vainilla">
@@ -187,7 +188,8 @@
                     <input type="checkbox" name="naranja" id="naranja">
                     <label for="naranja">Naranja</label>
                 </div>
-                <div>
+                <div class="contenedor-checkbox">
+                    <p>Elige tu adorno (puede elegir mas de uno)</p>
                     <input type="checkbox" name="fresas" id="fresas">
                     <label for="fresas">Fresas</label><br>
                     <input type="checkbox" name="cerezas" id="cerezas">
@@ -200,20 +202,22 @@
                     <label for="dulces">Dulces</label>
                 </div>
             </div>
-            <div class="1-columna">
+            <div class="una-columna">
                 <div class="boton">
                     <input type="submit" value="Pedir">
                 </div>
             </div>
         </form>
-    </section> -->
-    <!-- <footer>
+    </section>
+    <footer>
         <div>
-            <a href="#">Facebook</a>
-            <a href="#">Instagram</a>
-            <a href="#">Whatsapp</a>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Whatsapp</a></li>
+            </ul>
         </div>
         <p>©2022</p>
-    </footer> -->
+    </footer>
 </body>
 </html>

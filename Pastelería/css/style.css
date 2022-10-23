@@ -15,6 +15,20 @@
     --color-fondo-secundario:#f8dbd06d;
   }
 
+  body::-webkit-scrollbar {
+	width: 10px;
+    background: var(--color-oscuro);
+}
+
+body::-webkit-scrollbar-thumb {
+	background: var(--color-principal-hover);
+	border-radius: 5px;
+}
+/* Estilos */
+html {/* height of sticky header */
+    scroll-behavior: smooth;
+}
+
 
 body{
     background-color: var(--color-claro);
@@ -69,6 +83,7 @@ body{
     color: var(--color-oscuro);
 }
 
+.contenedor-tabla button,
 .header .boton button{
     color: var(--color-claro);
     padding: 8px 24px;
@@ -79,6 +94,7 @@ body{
     transition: all 0.3s;
 }
 
+.contenedor-tabla button:hover,
 .header .boton button:hover{
     background-color: var(--color-principal-hover);
     transform: scale(1.1);
@@ -120,7 +136,7 @@ h2{
     display: flex;
     flex-direction: column;
     padding: 40px 10%;
-    row-gap: 50px;
+    row-gap: 40px;
     background-color: var(--color-fondo-secundario);
 }
 .precios h2{
@@ -180,8 +196,8 @@ table tbody tr{
 .contacto{
     display: flex;
     flex-direction: column;
-    padding: 40px 10%;
-    row-gap: 50px;
+    padding: 40px 10% 70px;
+    row-gap: 20px;
     background-color: var(--color-fondo-secundario);
 }
 .contacto h2{
@@ -195,4 +211,165 @@ table tbody tr{
 }
 .contacto table{
     width: 50%;
+}
+
+.pedido{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 10% 70px;
+    row-gap: 20px;
+    background-color: var(--color-claro);
+}
+ 
+.pedido{
+    margin-bottom: 20px;
+}
+.pedido h2{
+    color: var(--color-fuente);
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/* Formulario */
+.formulario{
+    padding: 0 15%;
+}
+.formulario .input{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario .dos-columnas {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    column-gap: 20px;
+}
+.formulario .boton input {
+    color: var(--color-claro);
+    padding: 8px 24px;
+    cursor: pointer;
+    background: var(--color-principal);
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s;
+    margin-top: 40px;
+    width: 100%;
+}
+.formulario .boton input:hover{
+    background-color: var(--color-principal-hover);
+    transform: scale(1.1);
+}
+.formulario .boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario .input textarea,
+.formulario .input input{
+    width: 100%;
+    background: var(--color-secundario);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid var(--color-oscuro);
+    font-size: 12px;
+    color: var(--color-fuente);
+}
+.formulario div.input{
+    width: 100%;
+}
+.contenedor-checkbox label{
+    font-size: 14px;
+}
+
+footer{
+    padding: 0px 10%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-principal);
+    
+}
+footer p{
+    color: var(--color-secundario);
+    font-weight: bold;
+}
+
+
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content:_ space-between;
+    gap: 20px;
+    padding: 0;
+}
+
+footer li{
+
+    transition: all 0.3s;
+}
+footer li:hover{
+    transform: scale(1.1)
+}
+
+footer a{
+    color: var(--color-secundario);
+    text-decoration: none;
+}
+footer a:hover{
+    color: var(--color-oscuro);
+}
+
+
+.contenedor-tabla{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 10% 70px;
+    row-gap: 20px;
+    background-color: var(--color-claro);
+    align-items: center;
+}
+ 
+.contenedor-tabla {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 10% 70px;
+    row-gap: 20px;
+    background-color: var(--color-claro);
+}
+.contenedor-tabla table{
+    width: 100%;
+}
+ 
+.contenedor-tabla button{
+    margin-bottom: 20px;
+}
+.contenedor-tabla h2{
+    color: var(--color-fuente);
+    text-align: center;
+    padding-bottom: 10px;
+}
+.contenedor-tabla tbody td{
+    font-size: 14px;
+    padding: 5px;
+}
+.contenedor-tabla tbody a{
+    font-size: 14px;
+    color: var(--color-fuente);
+}
+.contenedor-tabla button{
+    color: var(--color-fuente);
+    background-color: transparent;
+    border: 1px solid var(--color-principal)
+}
+
+.contenedor-tabla button:hover{
+    color: var(--color-claro);
+    transform: scale(1.1);
+}
+.contenedor-tabla div a{
+    padding: 0 20px;
 }

@@ -5,24 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./img/logo.png" />
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Ver adornos</title>
 </head>
 <body>
-    <header>
-        <div>
+    <header class="header">
+        <div class="logo">
             <img src="./img/logo.png" alt="Logo">
         </div>
         <nav>
-        <ul>
+        <ul class="nav-links">
                 <li><a href="./pastelero-sabores.html">Sabores</a></li>
                 <li><a href="./pastelero-adornos.html">Adornos</a></li>
         </ul>            
         </nav>
-        <a class="btn" href="./pastelero-pedidos.html"><button>Pedidos</button></a>
+        <a class="boton" href="./pastelero-pedidos.html"><button>Pedidos</button></a>
     </header>
-    <section>
+    <section class="contenedor-tabla">
         <h2>Adornos disponibles</h2>
-        <button>Agregar nuevo adorno</button>
+        <a class="boton" href="#"><button>Agregar nuevo adorno</button></a>
         <table>
             <thead>
                 <tr>
@@ -65,6 +67,6 @@
                 </tr>
             </tbody>
         </table>
-    </section>   
+    </section>  
 </body>
 </html>
