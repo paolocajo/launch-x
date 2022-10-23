@@ -18,6 +18,7 @@
   body::-webkit-scrollbar {
 	width: 10px;
     background: var(--color-oscuro);
+    
 }
 
 body::-webkit-scrollbar-thumb {
@@ -32,7 +33,11 @@ html {/* height of sticky header */
 
 body{
     background-color: var(--color-claro);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
+
 
 .header{
     background-color: var(--color-secundario);
@@ -291,7 +296,8 @@ footer{
     align-items: center;
     justify-content: space-between;
     background-color: var(--color-principal);
-    
+    margin-top: auto;
+
 }
 footer p{
     color: var(--color-secundario);
